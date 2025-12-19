@@ -26,7 +26,7 @@
 <div align="center">
   <p align="center">
     <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=javascript,html,css,cpp,c#,python,sol"
+      src="https://go-skill-icons.vercel.app/api/icons?i=javascript,html,css,cpp,c#,python,solidity"
     /><br/>
     <img
       src="https://go-skill-icons.vercel.app/api/icons?i=git,github,tailwindcss,shadcn,react,nextjs,expressjs,vite,bootstrap"
