@@ -33,12 +33,9 @@ Hi! I'm Sadra Milani — Fighting Cybercrime with Code & Conscience
 
 <div align="center">
   <h3 style="color:#00FF9C;font-family:'Courier New',monospace;font-weight:bold;margin:25px 0 15px;font-size:18px;text-transform:uppercase;letter-spacing:1px;">🛡️ About</h3>
-  <div style="max-width:820px;margin:0 auto;padding:24px;background:#0A0A0A;border-radius:12px;border:1px solid #003322;box-shadow:0 0 20px rgba(0,255,156,0.1);color:#C0C0C0;font-family:'Courier New',monospace;text-align:left;line-height:1.75;font-size:15px;">
-    🔹 I develop <b>offensive-security tools</b> to combat <b>cybercrime</b>—from phishing lures to deepfake fraud.<br/>
-    🔹 Focus areas: <b>Web Exploitation Defense</b>, <b>Blockchain Forensics</b>, <b>Malicious Token Detection</b>, and <b>AI-Powered Threat Intel</b>.<br/>
-    🔹 Advocate for <i>ethical AI deployment</i> that protects <b>vulnerable communities</b> from digital harm.<br/>
-    🔹 Guiding principle: <b>“Security is a human right—not a privilege.”</b>
-  </div>
+  <p align="center" style="color:#CCCCCC; max-width:800px; margin:0 auto 20px; line-height:1.6;">
+    I'm a <strong>Security Researcher</strong> and <strong>Full-Stack Developer</strong> with a passion for ethical AI, privacy-preserving systems, and defending vulnerable communities in digital spaces. My work spans <strong>deepfake detection</strong> using Vision Transformers, <strong>blockchain security tools</strong>, and <strong>hardware-based authentication</strong> using Zero-Knowledge Proofs. I believe technology should empower—not exploit—and I build open-source tools to make security and AI more transparent, accessible, and human-centered.
+  </p>
 </div>
 
 <br/>
@@ -46,20 +43,54 @@ Hi! I'm Sadra Milani — Fighting Cybercrime with Code & Conscience
 <div align="center">
   <h3 style="color:#00FF9C;font-family:'Courier New',monospace;font-weight:bold;margin:25px 0 15px;font-size:18px;text-transform:uppercase;letter-spacing:1px;">⚡ Core Stack</h3>
   <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:14px;max-width:900px;margin:0 auto;padding:10px;background:#080808;border-radius:10px;border:1px solid #002211;">
-    <img src="https://skillicons.dev/icons?i=python,cpp,csharp,js,html,css,solidity&theme=dark" />
-    <img src="https://skillicons.dev/icons?i=react,next,express,nodejs,tailwind,git,linux,docker,redis&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=python,cpp,c,cs,js,html,css,solidity&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=react,next,express,nodejs,tailwind,git,linux,docker,kali&theme=dark" />
   </div>
 </div>
 
 <br/>
 
 <div align="center">
-  <h3 style="color:#00FF9C;font-family:'Courier New',monospace;font-weight:bold;margin:25px 0 15px;font-size:18px;text-transform:uppercase;letter-spacing:1px;">🧩 Anti-Cybercrime Projects</h3>
-  <div style="max-width:850px;margin:0 auto;padding:22px;background:#0A0A0A;border-radius:12px;border:1px solid #003322;box-shadow:0 0 20px rgba(0,255,156,0.1);color:#C0C0C0;font-family:'Courier New',monospace;text-align:left;line-height:1.8;font-size:15px;padding-left:24px;">
-    <b>• DeepfakeForensics</b> — Vision Transformer model detecting AI-generated media to combat disinformation & identity fraud (Python + Hugging Face)<br/>
-    <b>• TokenSentinel</b> — Real-time analyzer flagging scam tokens on Ethereum & BSC (Solidity + Python)<br/>
-    <b>• zkPhishTrap</b> — Honeytoken system that tracks & reports phishing kits (C++ on ESP32 + encrypted telemetry)<br/>
-    <b>• SecureMathEngine</b> — C# solver with input sanitization to prevent code injection in educational apps
+  <h3 style="color:#00FF9C;font-family:'Courier New',monospace;font-weight:bold;margin:25px 0 15px;font-size:18px;text-transform:uppercase;letter-spacing:1px;">🧩 Featured Projects</h3>
+
+  <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;max-width:900px;margin:0 auto 30px;padding:16px;background:#080808;border-radius:10px;border:1px solid #002211;color:#CCCCCC;">
+    
+    <div style="flex:1;min-width:280px;background:#0D0D0D;padding:16px;border-radius:8px;">
+      <h4 style="color:#00FF9C;margin:0 0 10px;font-size:16px;">zkPass – Privacy-First Auth</h4>
+      <p style="font-size:14px;line-height:1.5;margin:0;">
+        A hardware authentication system using Zero-Knowledge Proofs on ESP32. All cryptographic operations (AES-256, ZKPs) run in a trusted environment—credentials never leave the device.
+      </p>
+      <br/>
+      <a href="https://github.com/SadraCoding/zkpass-esp32" target="_blank" style="color:#00FF9C;text-decoration:underline;font-size:13px;">GitHub →</a>
+    </div>
+
+    <div style="flex:1;min-width:280px;background:#0D0D0D;padding:16px;border-radius:8px;">
+      <h4 style="color:#00FF9C;margin:0 0 10px;font-size:16px;">Deepfake Detection Model</h4>
+      <p style="font-size:14px;line-height:1.5;margin:0;">
+        An open-source deep learning model using Vision Transformers and CNNs to detect AI-generated fake media. Built for media forensics and digital integrity.
+      </p>
+      <br/>
+      <a href="https://huggingface.co/SadraCoding" target="_blank" style="color:#00FF9C;text-decoration:underline;font-size:13px;">Hugging Face →</a>
+    </div>
+
+    <div style="flex:1;min-width:280px;background:#0D0D0D;padding:16px;border-radius:8px;">
+      <h4 style="color:#00FF9C;margin:0 0 10px;font-size:16px;">Token Sentinel</h4>
+      <p style="font-size:14px;line-height:1.5;margin:0;">
+        An intelligent security platform that analyzes blockchain tokens for suspicious behavior using on-chain data and heuristic logic to protect users from scams.
+      </p>
+      <br/>
+      <a href="https://sadramilani.ir" target="_blank" style="color:#00FF9C;text-decoration:underline;font-size:13px;">Learn More →</a>
+    </div>
+
+    <div style="flex:1;min-width:280px;background:#0D0D0D;padding:16px;border-radius:8px;">
+      <h4 style="color:#00FF9C;margin:0 0 10px;font-size:16px;">DeFi Opportunity Engine</h4>
+      <p style="font-size:14px;line-height:1.5;margin:0;">
+        (In Progress) AI-driven platform that analyzes DeFi market data to recommend personalized investment opportunities based on user portfolio traits.
+      </p>
+      <br/>
+      <a href="https://sadramilani.ir" target="_blank" style="color:#00FF9C;text-decoration:underline;font-size:13px;">Preview →</a>
+    </div>
+
   </div>
 </div>
 
